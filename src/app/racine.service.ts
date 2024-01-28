@@ -1,8 +1,7 @@
 import { Injectable, computed, signal } from '@angular/core';
-import { RacineModelService } from './racine-definitions';
 
 @Injectable()
-export class RacineService implements RacineModelService {
+export class RacineService {
 
     private readonly _compteur = signal<number>(0)
     public readonly compteur = computed(() => this._compteur())
