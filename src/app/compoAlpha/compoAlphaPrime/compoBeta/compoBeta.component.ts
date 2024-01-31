@@ -23,4 +23,8 @@ export class CompoBetaComponent {
     this.CAPS.reset()
   }
 
+  decrementeCompteur() : void{
+    this.CAPS.reduce()
+  }
+
 }

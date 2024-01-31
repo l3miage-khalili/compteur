@@ -25,4 +25,8 @@ export class CompoAlphaPrimeComponent {
     this.CAPS.reset()
   }
 
+  decrementeCompteur() : void{
+    this.CAPS.reduce()
+  }
+
 }

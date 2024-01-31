@@ -25,4 +25,8 @@ export class CompoAComponent {
     this.CAS.reset()
   }
 
+  decrementeCompteur() : void {
+    this.CAS.reduce()
+  }
+
 }

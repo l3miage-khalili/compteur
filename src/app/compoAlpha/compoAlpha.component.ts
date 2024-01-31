@@ -23,4 +23,8 @@ export class CompoAlphaComponent {
     this.appS.reset()
   }
 
+  decrementeCompteur() : void{
+    this.appS.reduce()
+  }
+
 }

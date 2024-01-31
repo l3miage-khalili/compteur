@@ -17,4 +17,8 @@ export class CompoAService {
     reset() : void {
       this._compteur.set(0)
     }
+
+    reduce() : void{
+      this._compteur.update(val => val - 1)
+    }
 }
